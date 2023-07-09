@@ -1,0 +1,32 @@
+{
+  "name": "namastereact",
+  "version": "1.0.0",
+  "description": "namaste react course",
+  "main": "app.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build":"parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShivaniRastogi/react.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Shivani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShivaniRastogi/react/issues"
+  },
+  "homepage": "https://github.com/ShivaniRastogi/react#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
