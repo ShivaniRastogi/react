@@ -1,5 +1,16 @@
 import { CDN_URL } from "../../utills/constant";
 
+export const topRatedCard = (ResCard) =>{
+    return(props)=>{
+        return(
+            <>
+            <label>Top rated</label>
+            <ResCard {...props}/>
+            </>
+
+        )
+    }
+}
 const ResCard = (props) =>{
     const { data } = props;
     const {
